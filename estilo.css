@@ -1,0 +1,46 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.img{
+    width: 350px;
+    height: 350px;
+    padding-top: 100px;
+}
+
+.textoFrase{
+    font-style: italic;
+    color: #DD7B22;
+    text-align: center;
+}
+
+.timer{
+    font-size: 130px;
+    margin-top: -250px
+}
+
+.areaBtn{
+    margin-top: 100px;
+    display: flex;
+    gap: 30px
+}
+
+.botao{
+    width: 150px;
+    background-color: #FFF;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.botao:hover{
+    opacity: 0.7;
+    color: #000;
+    transition: all 0.50s;
+}
